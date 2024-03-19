@@ -67,12 +67,12 @@ header a {
     display: flex;
     background-color: white;
     width: 100%;
+    height: 100%;
 }
 
 article {
     flex: 1 1 60%;
     display: flex;
-    width: 60%;
     height: 100%;
     flex-direction: column;
     justify-content: center;
@@ -93,22 +93,22 @@ article img {
 }
 
 .info-1 {
-    flex: 1 1 40%;
     display: flex;
+    flex: 1 1 40%;
+    height: 100%;
+    width: 40%;
     flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 16px;
+    padding: 16px 0 32px 0;
+    margin: 1px;
 }
 
 .date, 
 .campus, 
 .lecture {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 16px;
-    margin: 0;
-
+    margin: 16px;
 }
 
 .info-1 img {
@@ -122,11 +122,17 @@ article img {
 #lecture {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: justify;
+    justify-items: center;
     width: 65%;
     padding: 16px;
     color: rgb(71, 71, 71);
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 0.5rem;
+}
+
+.info-1 p {
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
