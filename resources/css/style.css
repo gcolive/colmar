@@ -3,22 +3,50 @@ html {
     width: auto;
 }
 
-header div {
-    display: inline-flex;
+header  {
+    display: flex;
     justify-content: space-between;
     height: 64px;
     align-items: center;
     padding: 0 24px;
+    background-color: white;
 }
 
 header img, header h1 {
     display: inline-flex;
     align-content: center;
     height: 2rem;
+    color: ;
 }
 
 header a {
     display: inline-flex;
     align-content: center;
     margin-left: 1rem;
+    font-size: 1.40rem;
+    text-decoration: none;
+    color: gray;
+}
+
+/* intro */
+
+.cta {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    background-color: lightgray;
+    width: 100%;
+    color: rgb(82, 82, 82);
+}
+
+.cta img {
+    display: flex;
+    width: 60%;
+    padding: 32px 24px;
+    flex-shrink: 2;
+}
+ 
+.cta p,
+.cta a {
+    display: block;
 }
