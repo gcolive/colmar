@@ -64,8 +64,9 @@ header a {
 /* info */
 
 .info {
-    display: flex;
+    display: inline-flex;
     background-color: white;
+    justify-content: space-around;
     width: 100%;
     height: 100%;
 }
@@ -77,14 +78,14 @@ article {
     flex-direction: column;
     justify-content: center;
     color: rgb(71, 71, 71);
-    padding: 32px 24px;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    padding: 0 24px 32px 24px;
+    font-size: 1.2rem;
+    line-height: 1.5;
 
 }
 
 article img {
-    padding-bottom: 32px;
+    padding: 32px 0;
     width: 100%;
 }
 
@@ -95,11 +96,8 @@ article img {
 .info-1 {
     display: flex;
     flex: 1 1 40%;
-    height: 100%;
-    width: 40%;
     flex-direction: column;
-    padding: 16px 0 32px 0;
-    margin: 1px;
+    padding: 16px 16px 32px 16px;
 }
 
 .date, 
@@ -107,32 +105,32 @@ article img {
 .lecture {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    margin: 16px;
+    padding: 16px 16px;
+
+}
+
+.lecture {
+    background-color: lightgray;
+
 }
 
 .info-1 img {
+    display: flex;
     width: 35%;
     height: auto;
-
 }
 
-#date, 
-#campus, 
-#lecture {
+#specific-info {
     display: flex;
     flex-direction: column;
-    justify-items: center;
     width: 65%;
-    padding: 16px;
+    margin: 16px;
     color: rgb(71, 71, 71);
-    font-size: 1.5rem;
-    line-height: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .info-1 p {
-    display: block;
-    font-size: 1.5rem;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    display: inline-flex;
+    font-size: 1.2rem;
+    margin: 8px 0;
 }
