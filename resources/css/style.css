@@ -65,10 +65,10 @@ header a {
 
 .info {
     display: inline-flex;
+    flex: 1;
     background-color: white;
-    justify-content: space-around;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 article {
@@ -79,7 +79,7 @@ article {
     justify-content: center;
     color: rgb(71, 71, 71);
     padding: 0 24px 32px 24px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
 
 }
@@ -97,7 +97,9 @@ article img {
     display: flex;
     flex: 1 1 40%;
     flex-direction: column;
-    padding: 16px 16px 32px 16px;
+    padding: 16px 0 32px 16px;
+    border: 0.1rem solid lightgray;
+
 }
 
 .date, 
@@ -105,7 +107,7 @@ article img {
 .lecture {
     display: flex;
     flex-direction: row;
-    padding: 16px 16px;
+    padding: 16px 0 16px 16px;
 
 }
 
@@ -115,7 +117,8 @@ article img {
 }
 
 .info-1 img {
-    display: flex;
+    max-width: 500px;
+    max-height: 300px;
     width: 35%;
     height: auto;
 }
