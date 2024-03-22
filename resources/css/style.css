@@ -78,10 +78,15 @@ article {
     flex-direction: column;
     justify-content: center;
     color: rgb(71, 71, 71);
-    padding: 0 24px 32px 24px;
+    margin: 0 24px 32px 24px;
     font-size: 1.5rem;
     line-height: 1.5;
 
+}
+
+article h1 {
+    font-size: 2rem;
+    margin: 0;
 }
 
 article img {
@@ -97,9 +102,7 @@ article img {
     display: flex;
     flex: 1 1 40%;
     flex-direction: column;
-    padding: 16px 0 32px 16px;
-    border: 0.1rem solid lightgray;
-
+    margin: 16px 0 32px 16px;
 }
 
 .date, 
@@ -108,7 +111,6 @@ article img {
     display: flex;
     flex-direction: row;
     padding: 16px 0 16px 16px;
-
 }
 
 .lecture {
@@ -136,4 +138,44 @@ article img {
     display: inline-flex;
     font-size: 1.2rem;
     margin: 8px 0;
+}
+
+/* learning */
+
+.learning {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 56px;
+    background-color: lightgray;
+
+}
+
+.learning h1 {
+    text-align: center;
+    margin: 32px;
+    color: rgb(71, 71, 71);
+    font-size: 2rem;
+}
+
+.courses {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+}
+
+.software, .computer, .design, .data, .business, .marketing {
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 16px;
+    background-color: white;
+    justify-content: center;
+    text-align: justify;
+}
+
+.courses h3, p {
+    padding: 8px;
+    margin: 0;
 }
