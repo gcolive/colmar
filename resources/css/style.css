@@ -10,6 +10,7 @@ header  {
     align-items: center;
     padding: 0 24px;
     background-color: white;
+    color: gray;
 }
 
 header img, header h1 {
@@ -17,6 +18,11 @@ header img, header h1 {
     align-content: center;
     height: 2rem;
     
+}
+
+.colmar {
+    color: black;
+    font-weight: bold;
 }
 
 header a {
@@ -116,6 +122,11 @@ article img {
     justify-content: justify;
 }
 
+.date, .campus, .new-york {
+    border: 1px solid lightgray;
+
+}
+
 .lecture {
     background-color: lightgray;
 
@@ -189,6 +200,8 @@ article img {
     font-size: 1.2rem;
     color: rgb(71, 71, 71);
     width: 100%;
+    border-bottom: 1px solid lightgray;
+    ;
 }
 
 .thesis h1 {
@@ -221,6 +234,21 @@ video {
     margin-right: 16px;
 }
 
+.product {
+    background-color: lightgray;
+}
+
 /* footer */
 
-footer 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px 32px;
+    color: rgb(71, 71, 71);
+}
+
+footer a {
+    color: rgb(71, 71, 71);
+    padding: 10px;
+}
