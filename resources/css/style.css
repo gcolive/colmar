@@ -10,7 +10,7 @@ header  {
     align-items: center;
     padding: 0 24px;
     background-color: white;
-    color: gray;
+    color: rgb(75, 86, 116);
 }
 
 header img, header h1 {
@@ -31,7 +31,7 @@ header a {
     margin-left: 1rem;
     font-size: 1.40rem;
     text-decoration: none;
-    color: gray;
+    color: rgb(75, 86, 116);
 }
 
 /* intro */
@@ -40,7 +40,7 @@ header a {
     display: flex;
     flex-direction: row ;
     align-items: center;
-    background-color: lightgray;
+    background-color: rgb(138, 175, 231);
     width: 100%;
 }
 
@@ -55,11 +55,11 @@ header a {
     width: 30%;
     font-size: 1.5rem;
     justify-content: center;
-    color: rgb(71, 71, 71);
+    color: rgb(3, 23, 53);
 }
 
 .content a {
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(3, 23, 53);
     color: white;
     padding: 0.5rem;
     width: 85%;
@@ -83,7 +83,7 @@ article {
     height: 100%;
     flex-direction: column;
     justify-content: center;
-    color: rgb(71, 71, 71);
+    color: rgb(3, 23, 53);
     margin: 0 24px 32px 24px;
     font-size: 1.2rem;
     line-height: 1.5;
@@ -123,12 +123,12 @@ article img {
 }
 
 .date, .campus, .new-york {
-    border: 1px solid lightgray;
+    border: 1px solid rgb(193, 208, 250);
 
 }
 
 .lecture {
-    background-color: lightgray;
+    background-color: rgb(193, 208, 250);
 
 }
 
@@ -143,7 +143,7 @@ article img {
     display: flex;
     flex-direction: column;
     width: 65%;
-    color: rgb(71, 71, 71);
+    color: rgb(3, 23, 53);
     font-size: 1.2rem;
 }
 
@@ -153,14 +153,14 @@ article img {
     display: flex;
     flex-direction: column;
     padding: 32px 56px;
-    background-color: lightgray;
+    background-color: rgb(193, 208, 250);
 
 }
 
 .learning h1 {
     text-align: center;
     margin: 32px;
-    color: rgb(71, 71, 71);
+    color: rgb(3, 23, 53);
     font-size: 2rem;
 }
 
@@ -169,7 +169,7 @@ article img {
     flex-flow: row wrap;
     justify-content: center;
     font-size: 1.2rem;
-    color: rgb(71, 71, 71);
+    color: rgb(3, 23, 53);
 }
 
 #software, #computer, #design, #data, #business, #marketing {
@@ -198,16 +198,16 @@ article img {
     flex-direction: column;
     justify-content: center;
     font-size: 1.2rem;
-    color: rgb(71, 71, 71);
+    color: rgb(3, 23, 53);
     width: 100%;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid rgb(193, 208, 250);
     ;
 }
 
 .thesis h1 {
     text-align: center;
     margin: 32px;
-    color: rgb(71, 71, 71);
+    color: rgb(3, 23, 53);
     font-size: 2rem;    
 }
 
@@ -235,7 +235,7 @@ video {
 }
 
 .product {
-    background-color: lightgray;
+    background-color: rgb(193, 208, 250);
 }
 
 /* footer */
@@ -245,10 +245,25 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 16px 24px 32px;
-    color: rgb(71, 71, 71);
+    color: rgb(3, 23, 53);
 }
 
 footer a {
-    color: rgb(71, 71, 71);
+    color: rgb(3, 23, 53);
     padding: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .icon {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .icon {
+        display: inline;
+    }
+
 }
