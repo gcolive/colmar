@@ -253,17 +253,38 @@ footer a {
     padding: 10px;
 }
 
-@media only screen and (min-width: 600px) {
-    .icon {
+/* Responsive Design */
+
+@media only screen and (min-width: 500px) {
+    .icons {
         display: none;
     }
 
 }
 
 @media only screen and (max-width: 480px) {
-    
-    .icon {
-        display: inline;
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 64px;
+        width: auto;
     }
 
+    .logo, nav {
+        display: none;
+    }
+
+    .icons {
+        display: inline-flex;
+        width: auto;
+    }
+
+    .link-icon {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 24px;
+        margin: 0;
+    }
 }
