@@ -7,9 +7,9 @@ html {
 header  {
     display: flex;
     justify-content: space-between;
-    height: 64px;
+    height: 4rem;
     align-items: center;
-    padding: 0 24px;
+    padding: 0 1.5rem;
     background-color: white;
     color: rgb(75, 86, 116);
 }
@@ -48,7 +48,7 @@ header a {
 
 .cta img {
     width: 60%;
-    padding: 32px 24px;
+    padding: 2rem 1.5rem;
 }
  
 .content {
@@ -86,10 +86,9 @@ article {
     flex-direction: column;
     justify-content: center;
     color: rgb(3, 23, 53);
-    margin: 0 24px 32px 24px;
+    margin: 0 1.5rem 2rem 1.5rem;
     font-size: 1.2rem;
     line-height: 1.5;
-
 }
 
 article h1 {
@@ -98,7 +97,7 @@ article h1 {
 }
 
 article img {
-    padding: 32px 0;
+    padding: 2rem 0;
     width: 100%;
 }
 
@@ -110,8 +109,7 @@ article img {
     display: flex;
     flex: 1 1 40%;
     flex-direction: column;
-    margin: 16px 0 0 16px;
-    
+    margin: 1rem 0 0 1rem;
 }
 
 .date, 
@@ -121,23 +119,19 @@ article img {
 .new-york {
     display: flex;
     flex-direction: row;
-    padding: 16px 16px;
+    padding: 1rem;
     justify-content: justify;
 }
 
 .date, .campus, .new-york {
     border: 1px solid rgb(193, 208, 250);
-
 }
 
 .lecture {
     background-color: rgb(193, 208, 250);
-
 }
 
 .info-1 img, .thesis-2 img {
-    max-width: 500px;
-    max-height: 300px;
     width: 35%;
     height: auto;
 }
@@ -155,14 +149,14 @@ article img {
 .learning {
     display: flex;
     flex-direction: column;
-    padding: 32px 56px;
+    padding: 2rem 3.5rem;
     background-color: rgb(193, 208, 250);
 
 }
 
 .learning h1 {
     text-align: center;
-    margin: 32px;
+    margin: 2rem;
     color: rgb(3, 23, 53);
     font-size: 2rem;
 }
@@ -178,18 +172,18 @@ article img {
 #software, #computer, #design, #data, #business, #marketing {
     display: inline-flex;
     flex-direction: column;
-    width: 300px;
-    margin: 16px;
+    width: 30%;
+    margin: 1rem;
     background-color: white;
     justify-content: center;
 }
 
 .courses-content {
-    padding: 16px 16px 24px;
+    padding: 1rem 1rem 1.5rem;
 }
 
 .courses h3, p {
-    padding: 8px;
+    padding: 0.5rem;
     margin: 0;
 }
 
@@ -209,7 +203,7 @@ article img {
 
 .thesis h1 {
     text-align: center;
-    margin: 32px;
+    margin: 2rem;
     color: rgb(3, 23, 53);
     font-size: 2rem;    
 }
@@ -220,7 +214,7 @@ article img {
 
 .thesis-1 {
     width: 60%;
-    margin: 0 24px 32px ;
+    margin: 0 1.5rem 2rem ;
 }
 
 video {
@@ -234,7 +228,7 @@ video {
 }
 
 .thesis-2 img {
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 
 .product {
@@ -247,13 +241,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 24px 32px;
+    padding: 1rem 1.5rem 2rem;
     color: rgb(3, 23, 53);
 }
 
 footer a {
     color: rgb(3, 23, 53);
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 /* Responsive Design */
@@ -268,7 +262,7 @@ footer a {
 @media only screen and (max-width: 480px) {
 
     header {
-        height: 64px;
+        height: 4rem;
         width: auto;
     }
 
@@ -283,7 +277,7 @@ footer a {
     }
 
     .link-icon {
-        padding: 0 24px;
+        padding: 0 1.5rem;
     }
 
     .cta img {
@@ -293,7 +287,7 @@ footer a {
     
     .content {
         width: auto;
-        margin: 32px 16px;
+        margin: 2rem 1rem;
     }
 
     .content h1 {
@@ -301,11 +295,11 @@ footer a {
     }
 
     .content p {
-        margin: 24px 0;
+        margin: 1.5rem 0;
     }
 
     .info-1 {
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
         width: 100%;
     }
 
@@ -316,8 +310,8 @@ footer a {
         border: none;
     }
 
-    .info-1 img, .thesis-1 video  {
-        width: 100%;
+    .info-1 img  {
+        max-width: 100%;
         height: auto;
     }
 
@@ -334,10 +328,11 @@ footer a {
     }
 
     #software, #computer, #design, #data, #business, #marketing {
-        margin: 0 0 8px;
+        margin: 0 0 0.5rem;
+        width: 80%;
     }
 
-    .thesis {
+    .thesis-1, .thesis-1 video {
         width: 100%;
     }
 }
