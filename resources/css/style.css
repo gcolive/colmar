@@ -136,7 +136,7 @@ article img {
     height: auto;
 }
 
-#specific-info {
+.specific-info {
     display: flex;
     flex-direction: column;
     width: 65%;
@@ -253,7 +253,7 @@ footer a {
 /* Responsive Design */
 
 @media only screen and (min-width: 481px) {
-    .icons {
+    .icons, .mobile {
         display: none;
     }
 
@@ -266,7 +266,7 @@ footer a {
         width: auto;
     }
 
-    .logo, nav, article, .courses img, .courses p, .thesis-1 h3, .thesis-1 p, .thesis-2, .footer-links  {
+    .logo, nav, article, .info-1 img, .courses img, .courses p, .thesis-1 h3, .thesis-1 p, .thesis-2, .footer-links  {
         display: none;
     }
 
@@ -299,24 +299,35 @@ footer a {
     }
 
     .info-1 {
-        margin-bottom: 2rem;
+        margin: 1rem 1rem 0;
         width: 100%;
     }
 
     .date, .campus, .lecture, .product, .new-york {
         display: flex;
+        width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
         border: none;
+        padding: 0;
     }
 
-    .info-1 img  {
-        max-width: 100%;
+    .specific-info {
+        margin: 1rem 1rem 4rem;
+    }
+
+    .info-1 .mobile  {
+        width: 100%;
         height: auto;
+        display: block;
     }
 
     .lecture, .learning {
         background-color: white;
+    }
+
+    .learning h1 {
+        margin: 1rem;
     }
 
     .learning, .courses h3  {
@@ -334,5 +345,9 @@ footer a {
 
     .thesis-1, .thesis-1 video {
         width: 100%;
+    }
+
+    footer {
+        padding: 1rem;
     }
 }
