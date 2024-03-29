@@ -335,11 +335,12 @@ footer a {
 
     .learning, .courses h3  {
         padding: 0;
-        margin: 1rem 1rem 1.5rem;
+        margin: 1rem 1rem;
     }
 
     .courses-content, #computer .courses-content {
         background-color: rgb(193, 208, 250);
+        margin: 0;
     }
 
     #software, #computer, #design, #data, #business, #marketing {
