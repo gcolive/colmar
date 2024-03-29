@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
     width: auto;
+    margin: 0;
 }
 
 header  {
@@ -42,6 +43,7 @@ header a {
     align-items: center;
     background-color: rgb(138, 175, 231);
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .cta img {
@@ -109,6 +111,7 @@ article img {
     flex: 1 1 40%;
     flex-direction: column;
     margin: 16px 0 0 16px;
+    
 }
 
 .date, 
@@ -255,7 +258,7 @@ footer a {
 
 /* Responsive Design */
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 481px) {
     .icons {
         display: none;
     }
@@ -265,26 +268,72 @@ footer a {
 @media only screen and (max-width: 480px) {
 
     header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 64px;
         width: auto;
     }
 
-    .logo, nav {
+    .logo, nav, article, .courses img, .courses p, .thesis-1 h3, .thesis-1 p, .thesis-2  {
         display: none;
     }
 
     .icons {
         display: inline-flex;
-        width: auto;
+        justify-content: center;
+        width: 100%;
     }
 
     .link-icon {
-        display: flex;
-        justify-content: space-between;
         padding: 0 24px;
+    }
+
+    .cta img {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .content {
+        width: auto;
+        margin: 32px 16px;
+    }
+
+    .content h1 {
         margin: 0;
     }
+
+    .content p {
+        margin: 24px 0;
+    }
+
+    .info-1 {
+        margin-bottom: 32px;
+    }
+
+    .date, .campus, .lecture, .product, .new-york {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: none;
+    }
+
+    .info-1 img {
+        width: auto;
+    }
+
+    .lecture, .learning {
+        background-color: white;
+    }
+
+    .learning, .courses h3  {
+        padding: 0;
+    }
+
+    .courses-content {
+        background-color: rgb(193, 208, 250);
+    }
+
+    #software, #computer, #design, #data, #business, #marketing {
+        margin: 0 0 8px;
+    }
+
+
 }
