@@ -127,7 +127,7 @@ article img {
 .info-1 img, .thesis-2 img {
     width: 35%;
     height: auto;
-    margin: 1rem;
+    margin: 1rem 1rem;
 }
 
 .specific-info {
@@ -255,14 +255,14 @@ footer a {
 
 /* Responsive Design */
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 801px) {
     .icons, .mobile {
         display: none;
     }
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 800px) {
 
     header {
         height: 4rem;
