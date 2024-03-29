@@ -272,7 +272,7 @@ footer a {
         width: auto;
     }
 
-    .logo, nav, article, .courses img, .courses p, .thesis-1 h3, .thesis-1 p, .thesis-2  {
+    .logo, nav, article, .courses img, .courses p, .thesis-1 h3, .thesis-1 p, .thesis-2, .footer-links  {
         display: none;
     }
 
@@ -306,6 +306,7 @@ footer a {
 
     .info-1 {
         margin-bottom: 32px;
+        width: 100%;
     }
 
     .date, .campus, .lecture, .product, .new-york {
@@ -315,8 +316,9 @@ footer a {
         border: none;
     }
 
-    .info-1 img {
-        width: auto;
+    .info-1 img, .thesis-1 video  {
+        width: 100%;
+        height: auto;
     }
 
     .lecture, .learning {
@@ -335,5 +337,7 @@ footer a {
         margin: 0 0 8px;
     }
 
-
+    .thesis {
+        width: 100%;
+    }
 }
