@@ -121,19 +121,13 @@ article img {
     flex-direction: row;
     padding: 1rem;
     justify-content: justify;
-}
-
-.date, .campus, .new-york {
     border: 1px solid rgb(193, 208, 250);
-}
-
-.lecture {
-    background-color: rgb(193, 208, 250);
 }
 
 .info-1 img, .thesis-2 img {
     width: 35%;
     height: auto;
+    margin: 1rem;
 }
 
 .specific-info {
@@ -151,7 +145,6 @@ article img {
     flex-direction: column;
     padding: 2rem 3.5rem;
     background-color: rgb(193, 208, 250);
-
 }
 
 .learning h1 {
@@ -173,13 +166,23 @@ article img {
     display: inline-flex;
     flex-direction: column;
     width: 30%;
+    height: 100%;
     margin: 1rem;
     background-color: white;
     justify-content: center;
 }
 
+.courses img {
+    height: auto;
+    width: 100%;
+}
+
 .courses-content {
-    padding: 1rem 1rem 1.5rem;
+    margin: 1rem 1rem 2.90rem;
+}
+
+#computer .courses-content {
+    margin: 1rem 1rem 1.5rem;
 }
 
 .courses h3, p {
@@ -332,9 +335,10 @@ footer a {
 
     .learning, .courses h3  {
         padding: 0;
+        margin: 1rem 1rem 1.5rem;
     }
 
-    .courses-content {
+    .courses-content, #computer .courses-content {
         background-color: rgb(193, 208, 250);
     }
 
